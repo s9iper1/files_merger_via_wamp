@@ -17,7 +17,7 @@ def writing_single_file(file_1_data, file_2_data, file_3_data):
 
 
 if __name__ == '__main__':
-    file_1_lines = read_file('file1.txt')
-    file_2_lines = read_file('file2.txt')
-    file_3_lines = read_file('file3.txt')
+    file_1_lines = read_file('input_files/file1.txt')
+    file_2_lines = read_file('input_files/file2.txt')
+    file_3_lines = read_file('input_files/file3.txt')
     writing_single_file(file_1_lines, file_2_lines, file_3_lines)
